@@ -1,0 +1,129 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-05T15:57:32.796Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7253000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.GenericSteps.abreNavegador()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Registrar dados",
+        "description": "",
+        "id": "cadastro-na-pagina-tricents;registrar-dados",
+        "after": [
+          {
+            "result": {
+              "duration": 1171000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.GenericSteps.fechaNavegador(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2531000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que esteja na pagina \" http://sampleapp.tricentis.com/101/app.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" http://sampleapp.tricentis.com/101/app.php\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.GenericSteps.queEstejaNaPagina(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2840000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "os campos da aba vehicle sao preenchidos com valores validos",
+            "match": {
+              "location": "steps.VehicleInsuranceSteps.osCamposDaAbaVehicleSaoPreenchidosComValoresValidos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 4478000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "os campos da aba insurant data sao preenchidos com valores validos",
+            "match": {
+              "location": "steps.VehicleInsuranceSteps.osCamposDaAbaInsurantDataSaoPreenchidoComValoresValidos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1741000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "os campos da aba product data sao preenchidos com valores validos",
+            "match": {
+              "location": "steps.VehicleInsuranceSteps.osCamposDaAbaProductDataSaoPreenchidoComValoresValidos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1003000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "os campos da aba price options sao preenchidos com valores validos",
+            "match": {
+              "location": "steps.VehicleInsuranceSteps.osCamposDaAbaPriceOptionsSaoPreenchidoComValoresValidos()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 10377000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "os campos da aba send quote sao preenchidos com valores validos",
+            "match": {
+              "location": "steps.VehicleInsuranceSteps.osCamposDaAbaSendQuoteSaoPreenchidosComValoresValidos()"
+            },
+            "keyword": "Quando "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vehicle"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro na pagina tricents",
+    "description": "",
+    "id": "cadastro-na-pagina-tricents",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/vehicleInsurance.feature",
+    "tags": []
+  }
+]
